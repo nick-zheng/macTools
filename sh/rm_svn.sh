@@ -3,15 +3,15 @@
 if [ ! -n "$1" ] ;then
 	echo ""
 	echo "==============================================="
-    echo "请输入要删除.svn目录的路径！"
-    echo "使用方法："
-    echo "点+空格+脚本路径+空格+要删除的目标路径"
-    echo "例如："
-    echo ". ./sh/rm_svn.sh Users/xxxx/Documents/test"
-    echo "==============================================="
-    echo ""
+	echo "请输入要删除.svn目录的路径！"
+	echo "使用方法："
+	echo "点+空格+脚本路径+空格+要删除的目标路径"
+	echo "例如："
+	echo ". ./sh/rm_svn.sh Users/xxxx/Documents/test"
+	echo "==============================================="
+	echo ""
 else
-  	echo ""
+	echo ""
 
 	cd $1
 	pwd
